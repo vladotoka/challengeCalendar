@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import CalendarCarouselScreen from './src/screens/CalendarCarouselScreen';
+import Test from './src/screens/Test';
 
 export default function App() {
 	return (
 		<View style={styles.container}>
-			<CalendarCarouselScreen />
+			<Test />
 		</View>
 	);
 }
